@@ -1,15 +1,26 @@
-# Codeforces 800 Rating Solutions
+# Codeforces Solutions
 
-This folder contains my solutions to Codeforces problems rated 800.
+This repository contains my solutions to Codeforces problems.
 
-## Topics
-- Implementation
-- Math
-- Strings
-- Sorting
-- Greedy
-- Basic Algorithms
-- Bit Manipulation
+I am using this repository to practice competitive programming, improve problem-solving skills, and track my progress.
+
+## Language
+
+- C++
 
 ## Goal
 Improve my problem-solving skills through regular Codeforces practice.
+
+## Repository Structure
+
+Solutions are organized by Codeforces problem rating.
+
+```text
+Codeforces-Solutions/
+│
+├── 800/
+├── 900/
+├── 1000/
+├── 1100/
+├── 1200/
+└── README.md
