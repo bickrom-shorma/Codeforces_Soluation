@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string n, m; cin >> n >> m;
+    sort(n.begin(), n.end());
+    if (n[0] == '0') {
+        for (int i = 1; i < n.size(); i++) {
+            if (n[i] != '0') {
+                swap(n[0], n[i]);
+                break;
+            }
+        }
+    }
+    if (n == m) {
+        cout << "OK" << endl;
+    } else {
+        cout << "WRONG_ANSWER" << endl;
+    }
+    return 0;
+}
